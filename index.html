@@ -4,45 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IZA - Analýzy</title>
-    <link rel="stylesheet" href="https://idsk.gov.sk/assets/stylesheets/idsk.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
 
-    <!-- Hlavička s logom a názvom -->
-    <header class="idsk-header-web">
-        <div class="idsk-header-web__container">
-            <div class="idsk-header-web__brand">
-                <img src="IZA logo_1024_turquise_Cut.png" alt="Logo IZA" class="idsk-header-web__logo" width="120">
-                <span class="idsk-header-web__title">Inštitút zdravotných analýz</span>
+    <!-- Navigačné menu s logom -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #3b73bc;">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">
+                <img src="logo.png" alt="Logo IZA" width="50" height="50" class="d-inline-block align-middle">
+                IZA Analýzy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Domov</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">O nás</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Analýzy</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Kontakt</a></li>
+                </ul>
             </div>
         </div>
-        <hr class="govuk-section-break govuk-section-break--visible">
-    </header>
-
-    <!-- Navigačné menu -->
-    <nav class="idsk-header-web__navigation">
-        <ul class="idsk-header-web__menu">
-            <li><a href="#">Domov</a></li>
-            <li><a href="#">O nás</a></li>
-            <li><a href="#">Analýzy</a></li>
-            <li><a href="#">Kontakt</a></li>
-        </ul>
     </nav>
 
     <!-- Hlavný obsah -->
-    <main class="govuk-width-container">
-        <h1 class="govuk-heading-xl">Vitajte na stránke Inštitútu zdravotných analýz</h1>
-        <p class="govuk-body">Tu nájdete najnovšie analýzy, vizualizácie a dáta o zdravotnom systéme.</p>
-        <img src="moj-obrazok.jpg" class="govuk-image" alt="Ilustrácia">
-    </main>
+    <div class="container mt-5">
+        <h1 style="color: #7759a6;">Vitajte na stránke Inštitútu zdravotných analýz</h1>
+        <p>Tu nájdete najnovšie analýzy, vizualizácie a dáta o zdravotnom systéme.</p>
+        <img src="moj-obrazok.jpg" class="img-fluid rounded" alt="Ilustrácia">
+    </div>
 
     <!-- Footer -->
     <footer class="text-center p-3" style="background-color: #27A196; color: white;">
         &copy; 2025 Inštitút zdravotných analýz | Všetky práva vyhradené
     </footer>
 
-    <script src="https://idsk.gov.sk/assets/javascripts/idsk.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 
