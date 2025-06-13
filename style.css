@@ -1,0 +1,26 @@
+body {
+    background-color: #5ababe; /* Svetlý tyrkys */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #27A196;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+footer {
+    background-color: #27A196;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
